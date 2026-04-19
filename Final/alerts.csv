@@ -1,0 +1,19 @@
+timestamp,can_id,dlc,data,attack,attack_type,confidence,source,reason,severity,rule_label,rf_label,anomaly_flag
+2023-01-01 00:00:00.000,291,8,00 01 02 03 04 05 06 07,True,DoS,0.09218532365070763,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.100,292,8,10 11 12 13 14 15 16 17,True,DoS,0.06195366908732308,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.000,291,8,00 01 02 03 04 05 06 07,True,DoS,0.09218532365070763,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.100,292,8,10 11 12 13 14 15 16 17,True,DoS,0.06195366908732308,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.000,291,8,00 01 02 03 04 05 06 07,True,DoS,0.09218532365070763,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.100,292,8,10 11 12 13 14 15 16 17,True,DoS,0.06195366908732308,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.200,293,8,20 21 22 23 24 25 26 27,True,DoS,0.039208879898724736,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:02.000,293,8,20 21 22 23 24 25 26 27,True,DoS,0.07390494286019428,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:02.100,2457,8,FF FF FF FF FF FF FF FF,True,DoS,0.5734346409880028,Rule,Unknown CAN ID: 2457 Anomaly detector raised suspicion.,MEDIUM,DoS,DoS,True
+2023-01-01 00:00:02.200,291,8,AA BB CC DD EE FF 00 11,True,DoS,0.24294060104416845,ML,No rule-based attack detected. ML predicted DoS.,LOW,Normal,DoS,False
+2023-01-01 00:00:02.300,292,8,22 33 44 55 66 77 88 99,True,DoS,0.2688027586426671,ML,No rule-based attack detected. ML predicted DoS.,LOW,Normal,DoS,False
+2023-01-01 00:00:00.000,291,8,00 01 02 03 04 05 06 07,True,DoS,0.09218532365070763,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.100,292,8,10 11 12 13 14 15 16 17,True,DoS,0.06195366908732308,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:00.200,293,8,20 21 22 23 24 25 26 27,True,DoS,0.039208879898724736,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:02.000,293,8,20 21 22 23 24 25 26 27,True,DoS,0.07390494286019428,Anomaly,No rule-based attack detected. Anomaly detector raised suspicion.,LOW,Normal,Normal,True
+2023-01-01 00:00:02.100,2457,8,FF FF FF FF FF FF FF FF,True,DoS,0.5734346409880028,Rule,Unknown CAN ID: 2457 Anomaly detector raised suspicion.,MEDIUM,DoS,DoS,True
+2023-01-01 00:00:02.200,291,8,AA BB CC DD EE FF 00 11,True,DoS,0.24294060104416845,ML,No rule-based attack detected. ML predicted DoS.,LOW,Normal,DoS,False
+2023-01-01 00:00:02.300,292,8,22 33 44 55 66 77 88 99,True,DoS,0.2688027586426671,ML,No rule-based attack detected. ML predicted DoS.,LOW,Normal,DoS,False
